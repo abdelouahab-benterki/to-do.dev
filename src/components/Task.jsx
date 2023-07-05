@@ -28,7 +28,7 @@ const Task = ({ id, d, task }) => {
         opacity: 1,
         transition: {
           duration: 0.5,
-          delay: 0.9 + d,
+          delay: d,
         },
       }}
       exit={{ x: -400, opacity: 0 }}
